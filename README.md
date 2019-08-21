@@ -1,14 +1,24 @@
-# time_picker
+# Flutter Time Picker
 
-A Flutter time picker with cuptino style package.
+Flutter 时间选择器，iOS样式
+
+原版：https://github.com/wuzhendev/flutter-cupertino-date-picker
+在原版的基础上支持了年月日时分秒的选择样式
+
+
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+### 1，依赖与获取
+    在项目的 pubspec.yaml 文件中添加依赖：
+```
+    dependencies:
+        time_picker: ^0.0.1
+```
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+    执行 flutter packages get
+
+### 2，导入
+```
+    import 'package:time_picker/time_picker.dart';
+```
