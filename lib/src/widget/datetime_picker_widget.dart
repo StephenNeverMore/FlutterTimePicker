@@ -187,9 +187,8 @@ class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
   /// pressed confirm widget
   void _onPressedConfirm() {
     if (widget.onConfirm != null) {
-      DateTime day = _baselineDate.add(Duration(days: _currDay));
       DateTime dateTime =
-          DateTime(_currYear, _currMonth, day.day, _currHour, _currMinute, 0);
+          DateTime(_currYear, _currMonth, _currDay, _currHour, _currMinute, 0);
       widget.onConfirm(dateTime, _calcSelectIndexList());
     }
     Navigator.pop(context);

@@ -94,6 +94,7 @@ class _TimePickerWidgetState extends State<TimePickerWidget> {
     this._currSecond =
         min(max(_secondRange.first, _currSecond), _secondRange.last);
 
+    print("h: $_currHour  $_hourRange , m: $_currMinute  $_minuteRange ,s: $_currSecond  $_secondRange  ");
     // create scroll controller
     _hourScrollCtrl =
         FixedExtentScrollController(initialItem: _currHour - _hourRange.first);
