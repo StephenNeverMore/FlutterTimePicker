@@ -1,8 +1,8 @@
 name: time_picker
 description: Time picker with cupertino style.
 version: 0.0.1
-author: StephenNeverMore
-homepage:
+author: StephenNeverMore <stephen0zhu@gmail.com>
+homepage: https://github.com/StephenNeverMore/FlutterTimePicker
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
