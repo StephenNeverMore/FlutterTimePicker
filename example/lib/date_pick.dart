@@ -15,17 +15,17 @@ class _PickerState extends State<PickerPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            RaisedButton(
+            ElevatedButton(
                 onPressed: () {
                   _showPicker(context, DateTimePickerMode.date);
                 },
                 child: Text("日期选择")),
-            RaisedButton(
+            ElevatedButton(
                 onPressed: () {
                   _showPicker(context, DateTimePickerMode.datetime);
                 },
                 child: Text("日期+时间选择")),
-            RaisedButton(
+            ElevatedButton(
                 onPressed: () {
                   _showPicker(context, DateTimePickerMode.time);
                 },
